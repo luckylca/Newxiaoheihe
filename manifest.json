@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Newxiaoheihe",
+    "version": "1.0",
+    "description": "小黑盒美化",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.xiaoheihe.cn/app/bbs/home",
+                "https://www.xiaoheihe.cn/app/bbs/link/*"
+            ],
+            "css": [
+                "home.css"
+            ]
+            
+        }
+    ],
+    "icons": {
+        "48": "icon.png"
+    }
+}
